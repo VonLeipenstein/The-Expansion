@@ -1,0 +1,5 @@
+execute as @r at @s unless score @s expansion_dim matches 3 run summon minecraft:armor_stand ~ ~ ~ {Marker:1b,Invisible:1b,NoGravity:1b,Tags:["dimension_tester"]}
+execute as @e[type=armor_stand,tag=dimension_tester,limit=1] at @s in expansion:space/space run tp @s ~ ~ ~
+execute as @e[type=armor_stand,tag=dimension_tester,limit=1] at @s if entity @p[distance=0..] as @p run tellraw @a ["",{"text":"The Expansion","color":"blue"},{"text":" was not installed correctly, the custom dimensions didn't load. Try rejoining your world and make sure that you are playing in the compatible Minecraft version."}]
+execute as @e[type=armor_stand,tag=dimension_tester,limit=1] at @s unless entity @p[distance=0..] as @p run tellraw @a ["",{"text":"The Expansion","color":"blue","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/data-pack/the-expansion-explore-space-in-minecraft/#reply"}},{"text":" has been succesfully loaded."}]
+kill @e[type=armor_stand,tag=dimension_tester]

@@ -1,0 +1,47 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "block": "minecraft:red_sandstone",
+                  "predicate_type": "minecraft:block_match"
+                },
+                "state": {
+                  "Name": "minecraft:cave_air",
+                  "Properties": {}
+                },
+                "size": 64
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 10,
+                "top_offset": 0,
+                "maximum": 60
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "chance": 1
+      },
+      "type": "minecraft:chance"
+    }
+  },
+  "type": "minecraft:decorated"
+}

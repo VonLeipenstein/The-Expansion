@@ -1,0 +1,17 @@
+{
+  "config": {
+    "top_material": {
+      "Name": "minecraft:light_gray_concrete_powder"
+    },
+    "under_material": {
+      "Name": "minecraft:light_gray_concrete"
+    },
+    "underwater_material": {
+      "Name": "minecraft:basalt",
+      "Properties": {
+        "axis": "y"
+        }
+    }
+  },
+  "type": "minecraft:default"
+}

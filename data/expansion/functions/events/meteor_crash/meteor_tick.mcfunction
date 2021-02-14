@@ -1,0 +1,3 @@
+execute if score global expansion_timer matches 1000 if predicate expansion:chance/0007_chance as @r unless score @s expansion_dim matches 1..3 unless score @s expansion_dim matches 7 at @s run function expansion:events/meteor_crash/summon_meteor
+execute as @e[type=armor_stand,tag=falling_meteor,limit=1,sort=random] at @s run function expansion:events/meteor_crash/falling_meteor
+execute if score meteor_impact expansion_timer matches 1..2 as @e[type=armor_stand,tag=landed_meteor,limit=1,sort=random] at @s run function expansion:events/meteor_crash/place_meteor

@@ -1,0 +1,30 @@
+kill @e[type=minecraft:experience_orb,distance=..5]
+
+kill @e[type=armor_stand,tag=planetarium_sun,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_mercury,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_venus,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_earth,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_mars,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_jupiter,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_saturn,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_uranus,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_neptune,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_pluto,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_moon,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=planetarium_asteroids,distance=..11,limit=1,sort=nearest]
+
+kill @e[type=armor_stand,tag=mini_sun,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_mercury,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_venus,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_earth,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_mars,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_jupiter,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_saturn,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_uranus,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_neptune,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_pluto,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_moon,distance=..11,limit=1,sort=nearest]
+kill @e[type=armor_stand,tag=mini_asteroids,distance=..11,limit=1,sort=nearest]
+
+loot spawn ~ ~ ~ loot expansion:crafting/blocks/planetarium
+kill @s

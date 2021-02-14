@@ -1,0 +1,49 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "block": "minecraft:red_sandstone",
+                  "predicate_type": "minecraft:block_match"
+                },
+                "state": {
+                  "Name": "minecraft:redstone_ore",
+                  "Properties": {
+                    "lit": "false"
+                  }
+                },
+                "size": 15
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 0,
+                "top_offset": 0,
+                "maximum": 100
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 15
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

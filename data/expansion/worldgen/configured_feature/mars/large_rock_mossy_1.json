@@ -1,0 +1,19 @@
+{
+  "config": {
+    "feature": "expansion:mars/large_rock_mossy_2",
+    "decorator": {
+      "config": {
+        "outer": {
+          "config": {},
+          "type": "minecraft:heightmap"
+        },
+        "inner": {
+          "config": {},
+          "type": "minecraft:heightmap"
+        }
+      },
+      "type": "minecraft:decorated"
+    }
+  },
+  "type": "minecraft:decorated"
+}

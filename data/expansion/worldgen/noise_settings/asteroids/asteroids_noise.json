@@ -1,0 +1,46 @@
+{
+  "bedrock_roof_position": -10,
+  "bedrock_floor_position": -10,
+  "sea_level": 0,
+  "disable_mob_generation": false,
+
+  "structures": {
+    "structures": {}
+  },
+
+  "default_block": {
+    "Name": "minecraft:stone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:air",
+    "Properties": {
+      "level": "0"
+    }
+  },
+  "noise": {
+    "random_density_offset": false,
+    "simplex_surface_noise": false,
+	  "amplified": false,
+    "density_factor": 0,
+    "density_offset": 0,
+    "size_horizontal": 4,
+    "size_vertical": 4,
+    "height": 255,
+    "sampling": {
+      "xz_scale": 21,
+      "y_scale": 20,
+      "xz_factor": 1000,
+      "y_factor": 1000
+    },
+    "top_slide": {
+      "target": -40,
+      "size": 18,
+      "offset": -6
+    },
+    "bottom_slide": {
+      "target": -40,
+      "size": 17,
+      "offset": -4
+    }
+  }
+}

@@ -1,0 +1,4 @@
+scoreboard players set @s optn_cooldown 100
+scoreboard players enable @s spaceship_optns
+scoreboard players reset @s demount_optns
+tellraw @a ["",{"text":"\n"},{"selector":"@s"},{"text":"'s Spaceship\n---------------------\n"},{"text":"[Enter]","color":"green","clickEvent":{"action":"run_command","value":"/trigger spaceship_optns set 1"}},{"text":" "},{"text":"[Fuel]","color":"gold","clickEvent":{"action":"run_command","value":"/trigger spaceship_optns set 2"}},{"text":" ","color":"gold"},{"text":"[Demount]","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger spaceship_optns set 3"}},{"text":"\n---------------------\n "}]

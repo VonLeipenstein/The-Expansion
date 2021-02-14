@@ -1,0 +1,57 @@
+{
+  "bedrock_roof_position": -10,
+  "bedrock_floor_position": 0,
+  "sea_level": 60,
+  "disable_mob_generation": false,
+
+  "structures": {
+    "structures": {
+      "minecraft:village": {
+        "spacing": 12,
+        "separation": 8,
+        "salt": 14357921
+      },
+      "minecraft:bastion_remnant": {
+        "spacing": 3,
+        "separation": 2,
+        "salt": 30084232
+      }
+    }
+  },
+
+  "default_block": {
+    "Name": "minecraft:sandstone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:water",
+    "Properties": {
+      "level": "0"
+    }
+  },
+  "noise": {
+    "random_density_offset": true,
+    "simplex_surface_noise": true,
+	  "amplified": false,
+    "density_factor": 0.7,
+    "density_offset": -0.2,
+    "size_horizontal": 1,
+    "size_vertical": 4,
+    "height": 256,
+    "sampling": {
+      "xz_scale": 0.6,
+      "y_scale": 0.8,
+      "xz_factor": 480.0,
+      "y_factor": 60.0
+    },
+    "bottom_slide": {
+      "target": -30,
+      "size": 0,
+      "offset": 0
+    },
+    "top_slide": {
+      "target": -10,
+      "size": 0,
+      "offset": 0
+    }
+  }
+}

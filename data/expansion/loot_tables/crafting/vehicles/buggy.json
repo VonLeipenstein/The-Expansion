@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": 
+              {
+                "text": "Moon Buggy",
+                "color": "white",
+                "italic": false
+              },
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{moon_buggy:1b,CustomModelData:1012001}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

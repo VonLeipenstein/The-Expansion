@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": 
+              {
+                "text": "Rocket Top",
+                "color": "white",
+                "italic": false
+              },
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{rocket_top:1b,CustomModelData:123468}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

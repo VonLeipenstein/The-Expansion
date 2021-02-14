@@ -1,0 +1,3 @@
+execute as @s[gamemode=survival] at @s unless entity @s[nbt={Inventory:[{Slot:103b,id:"minecraft:carrot_on_a_stick",tag:{space_jetpack:1b}}]}] unless score @s inside_rocket matches 1 unless entity @e[type=armor_stand,tag=shield_generator,distance=..40] unless entity @s[tag=inside_spaceship] run effect give @s minecraft:wither 2 0 true
+
+execute as @s[gamemode=survival] at @s unless entity @s[nbt={Inventory:[{Slot:103b,id:"minecraft:carrot_on_a_stick",tag:{space_jetpack:1b}}]}] unless score @s inside_rocket matches 1 unless entity @e[type=armor_stand,tag=shield_generator,distance=..40] unless entity @s[tag=inside_spaceship] run function expansion:handy_tools/error_messages/low_oxygen

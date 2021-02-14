@@ -1,0 +1,61 @@
+{
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -1464245863,
+    "biome_source": {
+      "humidity_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "altitude_noise": {
+        "firstOctave": -4,
+        "amplitudes": [
+          1.0
+        ]
+      },
+      "weirdness_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "temperature_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+          "type": "minecraft:multi_noise",
+          "seed": -1464245863,
+          "biomes": [
+            {
+              "biome": "expansion:moon/moon_basic",
+              "parameters": {
+                "altitude": 0,
+                "weirdness": 0,
+                "offset": 0,
+                "temperature": 0,
+                "humidity": 0
+				}
+      },
+      {
+              "biome": "expansion:moon/moon_crater",
+              "parameters": {
+                "altitude": 0.8,
+                "weirdness": 0,
+                "offset": 0.2,
+                "temperature": 0,
+                "humidity": 0
+				}
+      }
+          ]
+        },
+	"settings": "expansion:moon/moon_noise"
+	},
+"type": "expansion:moon/moon_type"
+}

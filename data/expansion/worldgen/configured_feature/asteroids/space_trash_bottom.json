@@ -1,0 +1,56 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "to_place": {
+                  "Name": "minecraft:stone"
+                },
+                "place_on": [
+                  {
+                    "Name": "minecraft:air"
+                  }
+                ],
+                "place_in": [
+                  {
+                    "Name": "minecraft:air"
+                  }
+                ],
+                "place_under": [
+                  {
+                    "Name": "minecraft:air"
+                  }
+                ]
+              },
+              "type": "minecraft:simple_block"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 0,
+                "top_offset": 0,
+                "maximum": 60
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 2
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

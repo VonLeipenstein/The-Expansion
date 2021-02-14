@@ -1,0 +1,14 @@
+{
+  "config": {
+    "feature": "expansion:mars/large_rock_mossy_1",
+    "decorator": {
+      "config": {
+        "count": 0,
+        "extra_chance": 0.03,
+        "extra_count": 1
+      },
+      "type": "minecraft:count_extra"
+    }
+  },
+  "type": "minecraft:decorated"
+}

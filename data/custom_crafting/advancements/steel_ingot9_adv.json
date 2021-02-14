@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "Unlocked": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "custom_crafting:steel_ingot9"
+            }
+        }
+    },
+    "rewards": {
+        "function": "custom_crafting:crafted_steel_ingot9"
+    }
+}

@@ -1,0 +1,8 @@
+{
+  "config": {
+    "start_pool": "expansion:space/planets/template/m_c",
+    "size": 6
+  },
+  "type": "minecraft:bastion_remnant",
+  "name": "expansion:space_planets"
+}

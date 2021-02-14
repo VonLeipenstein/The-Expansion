@@ -1,0 +1,50 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "block": "minecraft:blackstone",
+                  "predicate_type": "minecraft:block_match"
+                },
+                "state": {
+                  "Name": "minecraft:basalt",
+                  "Properties": {
+                    "axis": "y"
+                  }
+                },
+                "size": 60
+              },
+              "type": "minecraft:ore",
+              "name": "basalt_chunk"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 0,
+                "top_offset": 0,
+                "maximum": 255
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 10
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

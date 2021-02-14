@@ -1,0 +1,31 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:carrot_on_a_stick",
+        "nbt": "{CustomModelData:123456}"
+      },
+      "title": {
+            "text": "The Expansion",
+            "color": "white",
+            "bold": true,
+            "italic": false,
+            "underlined": false
+      },
+      "description": {
+            "text": "Explore Space in Minecraft!",
+            "color": "white",
+            "bold": false,
+            "italic": false,
+            "underlined": false
+      },
+      "frame": "task",
+      "background": "minecraft:textures/environment/end_sky.png",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+  }

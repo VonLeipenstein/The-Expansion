@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:smooth_red_sandstone"
+      },
+      "title": "Life On Mars?",
+      "description": "Visit Mars, the Red Planet.",
+      "frame": "task",
+      "background": "minecraft:textures/environment/end_sky.png",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "expansion:reach_space",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "from": "expansion:space/space",
+          "to": "expansion:mars/mars"
+        }
+      }
+    }
+  }

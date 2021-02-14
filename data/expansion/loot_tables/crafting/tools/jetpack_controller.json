@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": 
+              {
+                "text": "Jetpack Controller",
+                "color": "white",
+                "italic": false
+              },
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Unbreakable:1b,space_controller:1b,jetpack_controller:1b,CustomModelData:1012200}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

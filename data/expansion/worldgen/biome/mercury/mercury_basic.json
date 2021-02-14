@@ -1,0 +1,54 @@
+{
+    "effects": {
+      "mood_sound": {
+        "sound": "minecraft:ambient.cave",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2.0
+      },
+      "sky_color": 0,
+      "foliage_color": 7026443,
+      "grass_color": 7026443,
+      "fog_color": 0,
+      "water_color": 6394,
+      "water_fog_color": 6394
+    },
+    "starts": [],
+    "spawners": {
+      "water_ambient": [],
+      "ambient": [],
+      "misc": [],
+      "water_creature": [],
+      "creature": [],
+      "monster": []
+    },
+    "surface_builder": "expansion:mercury/mercury_basic_surface",
+    "carvers": {
+      "air": []
+    },
+    "features": [
+      [],
+      [],
+      [],
+      [],
+      [],
+      [],
+      [
+        "expansion:mercury/diamond_vein",
+        "expansion:mercury/obsidian_vein",
+        "expansion:mercury/quartz_vein",
+        "expansion:mercury/magma_vein"
+      ],
+      [],
+      [],
+      []
+    ],
+    "scale": 0.4,
+    "depth": 1.0,
+    "temperature": 0.5,
+    "temperature_modifier": "none",
+    "downfall": 0.5,
+    "precipitation": "none",
+    "category": "none",
+    "spawn_costs": {}
+  }

@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": 
+              {
+                "text": "Rocket Cockpit",
+                "color": "white",
+                "italic": false
+              },
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{rocket_cockpit:1b,CustomModelData:123469}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

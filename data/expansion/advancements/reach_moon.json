@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:smooth_sandstone"
+      },
+      "title": "One Small Step For A Man...",
+      "description": "Fly a Rocket to The Moon and Prepare an Inspirational Quote.",
+      "frame": "task",
+      "background": "minecraft:textures/environment/end_sky.png",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "expansion:reach_space",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "from": "expansion:space/space",
+          "to": "expansion:moon/moon"
+        }
+      }
+    }
+  }

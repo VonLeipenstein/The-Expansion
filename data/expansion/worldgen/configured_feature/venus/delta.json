@@ -1,0 +1,32 @@
+{ "type": "minecraft:decorated",
+  "config": {
+    "feature": {
+      "type": "minecraft:delta_feature",
+      "config": {
+        "contents": {
+          "Name": "minecraft:lava",
+          "Properties": {
+            "level": "0"
+          }
+        },
+        "rim": {
+          "Name": "minecraft:magma_block"
+        },
+        "size": {
+          "base": 3,
+          "spread": 4
+        },
+        "rim_size": {
+          "base": 0,
+          "spread": 2
+        }
+      }
+    },
+    "decorator": {
+      "type": "minecraft:count_multilayer",
+      "config": {
+        "count": 1
+      }
+    }
+  }
+}

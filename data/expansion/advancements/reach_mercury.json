@@ -1,0 +1,23 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:basalt"
+      },
+      "title": "Tribute to Freddie",
+      "description": "Imagine Having a Planet Named After You.",
+      "frame": "task",
+      "background": "minecraft:textures/environment/end_sky.png",
+      "show_toast": true,
+      "announce_to_chat": true
+    },
+    "parent": "expansion:reach_space",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:changed_dimension",
+        "conditions": {
+          "from": "expansion:space/space",
+          "to": "expansion:mercury/mercury"
+        }
+      }
+    }
+  }

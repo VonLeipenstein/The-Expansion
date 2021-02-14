@@ -1,0 +1,2 @@
+loot spawn ~ ~ ~ loot expansion:books/guide2
+execute at @s as @e[type=item,nbt={Item:{id:"minecraft:written_book",tag:{exp_guide2:1b}}},limit=1,sort=nearest] run function expansion:items/expansion_guides/insert_guide2_info

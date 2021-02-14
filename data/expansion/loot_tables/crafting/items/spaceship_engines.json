@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jigsaw",
+          "functions": [
+            {
+              "function": "minecraft:set_name",
+              "name": 
+              {
+                "text": "Spaceship Engines",
+                "color": "white",
+                "italic": false
+              },
+              "entity": "this"
+            },
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{spaceship_engines:1b,CustomModelData:123465}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

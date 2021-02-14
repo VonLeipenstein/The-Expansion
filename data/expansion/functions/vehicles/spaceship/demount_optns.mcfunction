@@ -1,0 +1,2 @@
+scoreboard players enable @s demount_optns
+tellraw @s ["",{"text":"\nAre you sure? Any remaining fuel will be lost!\n-----------------\n"},{"text":"[Cancel]","color":"green","clickEvent":{"action":"run_command","value":"/trigger demount_optns set 1"}},{"text":" ","color":"green"},{"text":"[Demount]","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger demount_optns set 2"}},{"text":"\n-----------------\n"}]

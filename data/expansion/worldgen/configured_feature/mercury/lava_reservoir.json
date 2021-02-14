@@ -1,0 +1,52 @@
+{
+  "config": {
+    "feature": {
+      "config": {
+        "feature": {
+          "config": {
+            "feature": {
+              "config": {
+                "target": {
+                  "block": "minecraft:basalt",
+                    "Properties": {
+                      "axis": "y"
+                    },
+                  "predicate_type": "minecraft:block_match"
+                },
+                "state": {
+                  "Name": "minecraft:lava",
+                  "Properties": {
+                    "level": "0"
+                  }
+                },
+                "size": 64
+              },
+              "type": "minecraft:ore"
+            },
+            "decorator": {
+              "config": {
+                "bottom_offset": 0,
+                "top_offset": 0,
+                "maximum": 70
+              },
+              "type": "minecraft:range"
+            }
+          },
+          "type": "minecraft:decorated"
+        },
+        "decorator": {
+          "config": {},
+          "type": "minecraft:square"
+        }
+      },
+      "type": "minecraft:decorated"
+    },
+    "decorator": {
+      "config": {
+        "count": 3
+      },
+      "type": "minecraft:count"
+    }
+  },
+  "type": "minecraft:decorated"
+}

@@ -1,0 +1,46 @@
+{
+  "bedrock_roof_position": -10,
+  "bedrock_floor_position": 0,
+  "sea_level": 40,
+  "disable_mob_generation": false,
+
+  "structures": {
+    "structures": {}
+  },
+
+  "default_block": {
+    "Name": "minecraft:blackstone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:lava",
+    "Properties": {
+      "level": "0"
+    }
+  },
+  "noise": {
+    "random_density_offset": true,
+    "simplex_surface_noise": true,
+	  "amplified": false,
+    "density_factor": 0.5,
+    "density_offset": -0.2,
+    "size_horizontal": 1,
+    "size_vertical": 4,
+    "height": 256,
+    "sampling": {
+      "xz_scale": 2,
+      "y_scale": 1,
+      "xz_factor": 145.0,
+      "y_factor": 240.0
+    },
+    "bottom_slide": {
+      "target": 250,
+      "size": 65,
+      "offset": -45
+    },
+    "top_slide": {
+      "target": -236,
+      "size": 0,
+      "offset": 0
+    }
+  }
+}

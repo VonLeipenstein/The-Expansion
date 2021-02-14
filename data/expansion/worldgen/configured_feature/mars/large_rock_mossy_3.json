@@ -1,0 +1,31 @@
+{
+  "config": {
+    "state_provider": {
+      "entries": [
+        {
+          "weight": 3,
+          "data": {
+            "Name": "minecraft:stone"
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:redstone_ore",
+              "Properties": {
+                "lit": "false"
+              }
+          }
+        },
+        {
+          "weight": 1,
+          "data": {
+            "Name": "minecraft:iron_ore"
+          }
+        }
+      ],
+      "type": "minecraft:weighted_state_provider"
+    }
+  },
+  "type": "minecraft:block_pile"
+}

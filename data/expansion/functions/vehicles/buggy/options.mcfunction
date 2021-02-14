@@ -1,0 +1,3 @@
+scoreboard players set @s optn_cooldown 100
+scoreboard players enable @s buggy_optns
+tellraw @a ["",{"text":"\n"},{"selector":"@s"},{"text":"'s Moon Buggy\n--------------\n"},{"text":"[Fuel]","color":"gold","clickEvent":{"action":"run_command","value":"/trigger buggy_optns set 1"}},{"text":" ","color":"gold"},{"text":"[Demount]","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger buggy_optns set 2"}},{"text":"\n--------------\n "}]

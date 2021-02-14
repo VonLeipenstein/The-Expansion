@@ -1,0 +1,7 @@
+function expansion:handy_tools/raycast/cast
+execute at @e[tag=expansion_ray,distance=..5,limit=1,sort=nearest] align xyz positioned ~.5 ~ ~.5 run summon armor_stand ^ ^ ^ {Invulnerable:1b,NoGravity:1b,Marker:1b,Invisible:1b,Tags:["lacrymae_extractor"],ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1012302}}]}
+execute as @s[gamemode=survival] at @e[tag=expansion_ray,distance=..5,limit=1,sort=nearest] if entity @e[type=minecraft:armor_stand,nbt={Tags:["lacrymae_extractor"]},distance=..1] run clear @s carrot_on_a_stick{lacrymae_extractor:1b} 1
+execute at @e[tag=expansion_ray,limit=1,sort=nearest] at @e[type=armor_stand,tag=lacrymae_extractor,limit=1,sort=nearest] run setblock ~ ~ ~ minecraft:dropper[facing=up]{CustomName:"{\"text\":\"Lacrymae Extractor\",\"color\":\"dark_grey\"}"} replace
+execute at @e[tag=expansion_ray,limit=1,sort=nearest] at @e[type=armor_stand,tag=lacrymae_extractor,limit=1,sort=nearest] run setblock ~ ~1 ~ minecraft:hopper{CustomName:"{\"text\":\"Lacrymae Extractor Tube\",\"color\":\"dark_grey\"}",Lock:"kngxyafzam"} replace
+execute at @e[tag=expansion_ray,limit=1,sort=nearest] run playsound minecraft:block.metal.place voice @s
+execute as @e[tag=expansion_ray,limit=1,sort=nearest] run kill @s

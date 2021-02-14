@@ -1,0 +1,8 @@
+{
+  "config": {
+    "start_pool": "expansion:mars/cannon/center",
+    "size": 6
+  },
+  "type": "minecraft:village",
+  "name": "expansion:mars_structures"
+}

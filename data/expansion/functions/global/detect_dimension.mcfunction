@@ -1,0 +1,9 @@
+execute unless score @s expansion_dim matches 0 in minecraft:overworld if entity @a[distance=0..1] run scoreboard players set @s expansion_dim 0
+execute unless score @s expansion_dim matches 1 in minecraft:the_nether if entity @a[distance=0..1] run scoreboard players set @s expansion_dim 1
+execute unless score @s expansion_dim matches 2 in minecraft:the_end if entity @a[distance=0..1] run scoreboard players set @s expansion_dim 2
+execute unless score @s expansion_dim matches 3 in expansion:space/space if entity @a[distance=0..1] run scoreboard players set @s expansion_dim 3
+execute unless score @s expansion_dim matches 4 in expansion:moon/moon if entity @a[distance=0..1] run scoreboard players set @s expansion_dim 4
+execute unless score @s expansion_dim matches 5 in expansion:mars/mars if entity @a[distance=0..1] run scoreboard players set @s expansion_dim 5
+execute unless score @s expansion_dim matches 6 in expansion:venus/venus if entity @a[distance=0..1] run scoreboard players set @s expansion_dim 6
+execute unless score @s expansion_dim matches 7 in expansion:asteroids/asteroids if entity @a[distance=0..1] run scoreboard players set @s expansion_dim 7
+execute unless score @s expansion_dim matches 8 in expansion:mercury/mercury if entity @a[distance=0..1] run scoreboard players set @s expansion_dim 8

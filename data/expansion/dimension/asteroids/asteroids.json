@@ -1,0 +1,52 @@
+{
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -1464245863,
+    "biome_source": {
+      "humidity_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "altitude_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "weirdness_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+      "temperature_noise": {
+        "firstOctave": -7,
+        "amplitudes": [
+          1.0,
+          1.0
+        ]
+      },
+          "type": "minecraft:multi_noise",
+          "seed": -1464245863,
+          "biomes": [
+            {
+              "biome": "expansion:asteroids/asteroids_basic",
+              "parameters": {
+                "altitude": 0,
+                "weirdness": 0.1,
+                "offset": 0,
+                "temperature": 0,
+                "humidity": 1
+				}
+			}
+          ]
+        },
+	"settings": "expansion:asteroids/asteroids_noise"
+	},
+"type": "expansion:asteroids/asteroids_type"
+}
